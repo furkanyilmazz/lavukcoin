@@ -1,0 +1,67 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"external/miniupnpc/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 158,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 163,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"external/miniupnpc/libminiupnpc.a"
+			],
+			"targetId" : "upnpc-static::@60a6c63e2279a1ce8c58",
+			"targetIndex" : 37,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/miniupnpc",
+			"paths" : 
+			[
+				"external/miniupnpc/miniupnpc.h",
+				"external/miniupnpc/miniwget.h",
+				"external/miniupnpc/upnpcommands.h",
+				"external/miniupnpc/igd_desc_parse.h",
+				"external/miniupnpc/upnpreplyparse.h",
+				"external/miniupnpc/upnperrors.h",
+				"external/miniupnpc/declspec.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "external/miniupnpc",
+		"source" : "external/miniupnpc"
+	}
+}
